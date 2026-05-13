@@ -26,17 +26,17 @@ class PageOne extends StatelessWidget {
         
         
         
-          // final result = await Navigator.pushNamed(context, "/MyHomePage",
-          // arguments: Arguments(id: 10, name: "Ebac")  
-          //  );
+           final result = await Navigator.pushNamed(context, "/MyHomePage",
+           arguments: Arguments(id: 10, name: "Ebac")  
+            );
         
-        final result = await Navigator.push(context, PageRouteBuilder(
-        transitionDuration: const Duration(milliseconds: 2000),
-        reverseTransitionDuration: const Duration(seconds: 1),
-        pageBuilder: (_, __, ___,) => const MyHomePage(),
-        settings: RouteSettings(arguments: Arguments(id: 50, name: "Ebac")),
-        ),
-        );
+      //  final result = await Navigator.push(context, PageRouteBuilder(
+       // transitionDuration: const Duration(milliseconds: 2000),
+       // reverseTransitionDuration: const Duration(seconds: 1),
+      //  pageBuilder: (_, __, ___,) => const MyHomePage(),
+      //  settings: RouteSettings(arguments: Arguments(id: 50, name: "Ebac")),
+     //   ),
+     //   );
         
         debugPrint('Resultado da Página MyHomePage => ${result??"Sem Resultdado"}');
         
