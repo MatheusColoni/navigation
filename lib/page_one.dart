@@ -16,16 +16,13 @@ class PageOne extends StatelessWidget {
          
 
 
-           //Navigator.push
-           //(context,
-           // MaterialPageRoute
-           //(Builder: (context) => 
-           //const MyHomepage(title: 'TITLE' ));
+           //Navigator.push(context,
+           // MaterialPageRoute(builder: (context) =>
+           //   const MyHomePage(title: 'TITLE')));
 
-          //final result = await Navigator.pushNamed
-          //(context, 
-          //'/MyHomePage',
-          // arguments: Arguments(id:10, name: "Ebac"));
+          //final result = await Navigator.pushNamed(context,
+          //  '/MyHomePage',
+          //  arguments: Arguments(id: 10, name: "Ebac"));
         
         
         
